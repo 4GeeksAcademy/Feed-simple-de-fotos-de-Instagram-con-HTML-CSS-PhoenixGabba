@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ccc;
+  margin: 0;
+}
+
+.feed {
+  width: 600px;
+  margin: 0 auto; /* centrado horizontal */
+  padding-top: 20px;
+}
+
+.post {
+  background-color: white;
+  margin-bottom: 20px; 
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.post-header p {
+  color: #ccc;  
+}
+
+.post-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover; /* recorta bien si la imagen no es cuadrada */
+}
+
+.post-footer {
+  padding: 10px;
+}
+
+h1 {
+  background-color: white; /* Establece el fondo del h1 a blanco */
+  padding: 10px;           /* Agrega un poco de relleno (espaciado) alrededor del texto */
+  text-align: center;      /* Centra el texto */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Opcional: Agrega una sombra sutil */
+  margin:none
+}
